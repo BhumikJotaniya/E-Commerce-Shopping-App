@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jbmart"
+    tools:context=".Sellers.SellerLoginActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/txtView_seller_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Seller Login Form"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/seller_mail_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:padding="10dp"
+                android:hint="E-mail"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:background="@drawable/custom_edittext"
+                />
+
+            <EditText
+                android:id="@+id/seller_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/seller_mail_login"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:hint="Password"
+                android:textStyle="bold"
+                android:background="@drawable/custom_edittext"
+                />
+
+            <Button
+                android:id="@+id/seller_login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/seller_password_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="26sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seller_have_account"
+                android:layout_below="@id/seller_login_btn"
+                android:onClick="Register"
+                android:textColor="@color/lavender"
+                android:layout_marginTop="14dp"
+                android:textSize="18sp"
+                android:text="@string/register_as_seller"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_login"
+                android:id="@+id/admin_panel_link"
+                android:layout_below="@id/seller_have_account"
+                android:gravity="end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="14dp"
+                android:textSize="14sp"
+                android:layout_marginBottom="14dp"
+                android:textColor="@color/lavender"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

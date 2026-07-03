@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "968332669671",
+    "firebase_url": "https://jb-mart-dec06-default-rtdb.firebaseio.com",
+    "project_id": "jb-mart-dec06",
+    "storage_bucket": "jb-mart-dec06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968332669671:android:afef95cad5e286af7aa842",
+        "android_client_info": {
+          "package_name": "com.example.jbmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZPqPb4qQlr1WG6o7UAGgkwmBYcrfdO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

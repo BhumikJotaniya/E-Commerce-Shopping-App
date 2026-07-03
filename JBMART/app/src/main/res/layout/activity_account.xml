@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".accountActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="149dp"
+                android:layout_height="135dp"
+                android:contentDescription="Profile Image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_account_circle_24"
+                android:layout_gravity="center" />
+
+
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/baseline_account_circle_24"
+                android:enabled="false"
+                android:hint="  Username"
+                android:background="@drawable/custom_edittext"
+                android:textColorHint="#716D6D"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:background="@drawable/custom_edittext"
+                android:enabled="false"
+                android:hint="  Email"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/phoneNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:background="@drawable/custom_edittext"
+                android:enabled="false"
+                android:hint="  Phone Number"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/saveProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lavender_border"
+                android:text="Save Changes"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:text="Logout"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/seller_login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:text="Sell on JBMART"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/editProfileImageView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:text="Edit profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center" />
+
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lavender"
+            app:itemIconSize="30dp"
+            android:layout_alignParentBottom="true"
+            app:itemIconTint="@color/white"
+            app:menu="@menu/menu_bottom"
+            />
+
+
+
+
+
+
+
+</RelativeLayout>

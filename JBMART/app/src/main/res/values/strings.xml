@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">JB MART</string>
+    <string name="open_nav">open home</string>
+    <string name="close_nav">close home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="didn_t_receive_the_otp">didn\'t receive the OTP?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="search">search...</string>
+
+
+    <string name="search_hint">Search for items…</string>
+    <string name="jb_mart">JB MART</string>
+    <string name="shop_smart_shop_easy">Shop Smart, Shop Easy.</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="seller_registration_form">Seller Registration Form</string>
+    <string name="password">Password</string>
+    <string name="shop_buisness_address">Shop - Buisness Address</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="register_as_seller">Register As Seller?</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="product_price">Product Price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="product_description">Product Description</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="select_product_image">Select Product Image</string>
+    <string name="sell_on_jb_mart">Sell on JB MART</string>
+    <string name="admin_login">Admin login?</string>
+    <string name="check_and_apprrove_new_products">Check and Apprrove new Products</string>
+    <string name="maintain_product">Maintain Product</string>
+    <string name="welcome_admin">Welcome Admin</string>
+
+
+</resources>
